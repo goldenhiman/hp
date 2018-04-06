@@ -17,11 +17,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
          if ($(this).scrollTop() > 30){
             $('header').addClass('topfix').removeClass('normal');
-            $('.logoimg').attr("src","/images/hpc.png");
+            $('.logoimg').attr("src","images/hpc.png");
             $('#back-to-top').show();
          }else{
             $('header').removeClass('topfix').addClass('normal');
-            $('.logoimg').attr("src","/images/hpw.png");
+            $('.logoimg').attr("src","images/hpw.png");
             $('#back-to-top').hide();
          }
 
